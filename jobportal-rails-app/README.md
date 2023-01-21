@@ -1,3 +1,12 @@
+# Creating Rails app:
+rails new jobportal-rails-app -d postgresql
+# Configuring the below fields in database.yml for development and test: 
+  * database: 
+  * username: 
+  *  password: 
+  * host: 
+  * port: 5432
+
 # README
 
 This README would normally document whatever steps are necessary to get the
