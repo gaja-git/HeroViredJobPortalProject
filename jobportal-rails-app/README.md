@@ -7,6 +7,10 @@ rails new jobportal-rails-app -d postgresql
   * host: 
   * port: 5432
 
+To resolve the "missing gemfiles error " 
+Execute - bundle install 
+This will resolve the dependency error while executing in different systems
+
 # README
 
 This README would normally document whatever steps are necessary to get the

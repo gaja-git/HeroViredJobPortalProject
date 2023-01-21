@@ -1,6 +1,9 @@
 # Creating new react app 
 npx create-react-app jobportal-react-app
 
+To resolve the "react-scripts is not recognized as an internal or external command" 
+Execute - npm install 
+This will resolve the dependency error while executing in different systems
 
 # Getting Started with Create React App
 
