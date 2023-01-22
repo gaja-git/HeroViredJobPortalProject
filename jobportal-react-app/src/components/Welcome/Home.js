@@ -7,13 +7,9 @@ const Home = () => {
             <h1> Welcome to Job Portal Page GAVI!!!</h1>
             <p> About GAVI</p>
             <div>
-                <p> Are you an existing user?</p>
-            <Link to="/login">
-            <button>Login here!</button>
-            </Link>
-            </div>
-            <div>
-                <p> Candidate searching for job? </p>
+            <p> this section below should come in right side partition </p>
+
+                <p> Are you a candidate searching for job? </p>
                 <p> Please create your account </p>
             <Link to="/createaccount">
             <button>Create account!</button>

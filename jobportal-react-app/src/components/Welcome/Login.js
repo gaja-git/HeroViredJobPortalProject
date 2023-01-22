@@ -22,8 +22,8 @@ const Login = () => {
             <input type="text" placeholder='email' name='email'  onChange={handleLogin}/>
             <input type="text" placeholder='password' name='password' onChange={handleLogin}/>
             <input type="submit" onClick={sendLogin} />
-            <Link to="/">
-            <p>Profile - Update later on</p>
+            <Link to="/profile">
+            <button>Please create your profile</button>
             </Link>
         </div>
     );
