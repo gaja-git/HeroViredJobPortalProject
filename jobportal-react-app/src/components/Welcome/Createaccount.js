@@ -1,4 +1,5 @@
 import React ,{useState} from "react"
+import { Link } from "react-router-dom";
 
 export default function CreateAccount(){
 
@@ -20,7 +21,10 @@ export default function CreateAccount(){
 	<div> 
 	<input type="text" placeholder="useremail" name="email" onChange={handleChange}/>
 	<input type="password" placeholder="password" name="password" onChange={handleChange}/>
-	<input type="submit" placeholder="Create Account" onClick={sendData} />      
+	<input type="submit" placeholder="Create Account" onClick={sendData} /> 
+            <Link to="/login">
+            <button>Login here!</button>
+            </Link>
 	</div>
 	
 	)
