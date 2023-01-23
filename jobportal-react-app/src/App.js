@@ -8,7 +8,7 @@ import Profile from './components/Profile';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Routes>
       <Route element={<Home />} path="/" />
       <Route element={<Createaccount />} path="/createaccount" />
@@ -18,7 +18,8 @@ function App() {
 
     </Routes>
     
-    </div>
+    </>
+    
   );
 }
 
